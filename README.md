@@ -61,7 +61,8 @@ Para adicionar novos idiomas, basta criar um arquivo `lang/novo_idioma.yml` base
 
 ## 📜 Licença
 
-MIT License - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Creative Commons - CC BY-NC 4.0 - veja o arquivo [LICENSE](LICENSE) para detalhes.
+(Atribuição + Uso Não Comercial)
 
 <div align="center">
   <img src="https://i.imgur.com/jtb0wQH.png" alt="ThReport Icon" width="200">
