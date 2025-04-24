@@ -1,0 +1,28 @@
+name: ThReport
+version: "pre-alpha-rd-20250424" 
+main: com.spirit.threport.ThReport
+authors: [spirit]
+description: Um sistema de report de jogadores com interface gráfica estilizada, efeitos sonoros, confirmações, e acesso fácil para a staff ver, filtrar e agir rapidamente sobre denúncias.
+commands:
+  report:
+    description: Reportar um jogador
+    aliases: [reportar, denunciar, relate]
+  reports:
+    description: Ver lista de denúncias (staff)
+    aliases: [reportes, denuncias]
+  reportlog:
+    description: Ver histórico de denúncias de um jogador
+    aliases: [reporthistory, historicodenuncia]
+  threport:
+    description: Comandos administrativos do plugin
+    aliases: [threp, thr]
+permissions:
+  threport.staff.report:
+    description: Permite ver denúncias
+    default: op
+  threport.staff.reports:
+    description: Permite acessar a lista de denúncias
+    default: op
+  threport.admin:
+    description: Permite acessar comandos administrativos do plugin
+    default: op

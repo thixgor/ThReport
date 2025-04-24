@@ -1,0 +1,74 @@
+# Arquivo de idioma Português-Brasil (pt_BR) para ThReport
+# Autor: spirit
+
+geral:
+  prefixo: "&8[&c&lTh&4&lReport&8] &r"
+  sem_permissao: "&cVocê não tem permissão para usar este comando."
+  no_permission: "&cVocê não tem permissão para usar este comando."
+  jogador-offline: "&cEste jogador não está online."
+  comando-incorreto: "&cUso correto: {comando}"
+  only_players: "&cEste comando só pode ser executado por jogadores."
+
+report:
+  cooldown: "&cVocê precisa esperar {tempo} minutos para reportar este jogador novamente."
+  bloqueado: "&cVocê está temporariamente bloqueado de fazer denúncias devido a múltiplas denúncias falsas."
+  sucesso: "&aDenúncia enviada com sucesso! Obrigado por ajudar a manter o servidor seguro."
+  nao-pode-reportar-si-mesmo: "&cVocê não pode reportar a si mesmo."
+  menu-titulo: "&c&lReportar: &f{jogador}"
+  confirmacao-titulo: "&c&lConfirmar Denúncia"
+  confirmacao-sim: "&a&lConfirmar"
+  confirmacao-nao: "&c&lCancelar"
+  denuncia-aceita: "&aA denúncia foi aceita."
+  cancelado: "&cDenúncia cancelada."
+  aceita: "&aA denúncia foi aceita."
+  tipos:
+    hack: "&c&lHack / Cheats"
+    chat: "&e&lChat Abusivo / Ofensas"
+    grief: "&7&lTeam Grief / Traição"
+    bug: "&6&lBug Abuse"
+    cross: "&b&lCross-Team / Trapaça"
+  descricoes:
+    hack: "&7Jogador usando hacks como: kill aura,\n&7fly, speed hack, etc."
+    chat: "&7Ofensas, spam, flood, divulgação\n&7de links proibidos, etc."
+    grief: "&7Sabotagem de time, destruição\n&7de base aliada, etc."
+    bug: "&7Exploração de bugs do jogo\n&7para obter vantagens."
+    cross: "&7Aliança com jogadores inimigos\n&7ou trapaça em times."
+
+staff:
+  notificacao: "&c&lNOVO REPORT! &f{reporter} &7reportou &f{reportado} &7por &f{motivo} &7em &f{servidor}"
+  nova-denuncia: "&c&lNOVO REPORT! &f{reporter} &7reportou &f{reportado} &7por &f{motivo} &7em &f{servidor}"
+  clique-para-ver: "&a&l[CLIQUE PARA VER]"
+  menu-titulo: "&c&lDenúncias Pendentes"
+  opcoes-titulo: "&c&lOpções da Denúncia"
+  sem-denuncias: "&aNão há denúncias pendentes no momento."
+  resolvido: "&aDenúncia marcada como resolvida."
+  deletado: "&cDenúncia deletada."
+  teleportado: "&aTeleportado até o jogador denunciado."
+  nao-mesmo-servidor: "&cO jogador denunciado não está no mesmo servidor."
+  historico-titulo: "&c&lHistórico de Denúncias: &f{jogador}"
+  sem-historico: "&aEste jogador não possui histórico de denúncias."
+  historico:
+    pendente: "&e⚠ Pendente"
+    resolvido: "&a✓ Resolvido"
+    resolvido-por: "&aDenuncia resolvida por {staff}"
+  opcoes:
+    rejeitar: "&c&lRejeitar Denúncia"
+    aceitar: "&a&lAceitar Denúncia"
+    teleportar: "&b&lTeleportar ao Jogador"
+  botoes:
+    resolver: "&a&lMarcar como Resolvido"
+    deletar: "&c&lDeletar Denúncia"
+    teleportar: "&b&lTeleportar até o Jogador"
+    historico: "&e&lVer Histórico"
+    voltar: "&7&lVoltar"
+  info-denuncia:
+    jogador: "&7Jogador: &f{jogador}"
+    motivo: "&7Motivo: &f{motivo}"
+    reportado-por: "&7Reportado por: &f{reporter}"
+    servidor: "&7Servidor: &f{servidor}"
+    data: "&7Data: &f{data}"
+    quantidade: "&7Quantidade: &f{quantidade} denúncias"
+  # @deprecated - Use report.aceita instead
+  denuncia-aceita: "&aA denúncia foi aceita."
+
+reportlog_usage: "&cUso correto: /reportlog <jogador>"

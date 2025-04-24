@@ -1,0 +1,41 @@
+# Arquivo de mensagens do ThReport
+# Autor: spirit
+# Este arquivo permite configurar todas as mensagens do plugin
+# Para usar cores, use os códigos de cores do Minecraft: &a, &b, &c, etc.
+
+# Configuração de idioma
+language:
+  # Idioma padrão (pt_BR ou en_US)
+  default: "pt_BR"
+  # Usar idioma do cliente quando disponível?
+  use-client-locale: true
+
+# Você pode personalizar todas as mensagens aqui
+# As mensagens são carregadas dos arquivos de idioma na pasta lang/
+# Você pode adicionar novos idiomas criando arquivos como fr_FR.yml
+
+# Configurações de formatação
+formatting:
+  # Formato da data nas mensagens
+  date-format: "dd/MM/yyyy HH:mm"
+  # Cores personalizadas
+  colors:
+    primary: "&c"
+    secondary: "&7"
+    highlight: "&f"
+    success: "&a"
+    error: "&c"
+    warning: "&e"
+
+# Configurações de mensagens clicáveis
+clickable-messages:
+  enabled: true
+  # Texto que aparece ao passar o mouse sobre a mensagem clicável
+  hover-text: "&aClique para abrir o menu de denúncias"
+
+# Configurações de títulos e subtítulos
+titles:
+  # Duração dos títulos em ticks (20 ticks = 1 segundo)
+  fade-in: 10
+  stay: 70
+  fade-out: 20

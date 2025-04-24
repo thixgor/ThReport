@@ -1,0 +1,71 @@
+# English language file (en_US) for ThReport
+# Author: spirit
+
+general:
+  prefix: "&8[&c&lTh&4&lReport&8] &r"
+  no_permission: "&cYou don't have permission to use this command."
+  player-offline: "&cThis player is not online."
+  incorrect-command: "&cCorrect usage: {command}"
+  only_players: "&cThis command can only be executed by players."
+
+report:
+  cooldown: "&cYou need to wait {time} minutes to report this player again."
+  blocked: "&cYou are temporarily blocked from making reports due to multiple false reports."
+  success: "&aReport sent successfully! Thank you for helping keep the server safe."
+  cannot-report-self: "&cYou cannot report yourself."
+  menu-title: "&c&lReport: &f{player}"
+  confirmation-title: "&c&lConfirm Report"
+  confirmation-yes: "&a&lConfirm"
+  confirmation-no: "&c&lCancel"
+  cancelado: "&cReport cancelled."
+  types:
+    hack: "&c&lHack / Cheats"
+    chat: "&e&lAbusive Chat / Offenses"
+    grief: "&7&lTeam Grief / Betrayal"
+    bug: "&6&lBug Abuse"
+    cross: "&b&lCross-Team / Cheating"
+  descriptions:
+    hack: "&7Player using hacks such as: kill aura,\n&7fly, speed hack, etc."
+    chat: "&7Offenses, spam, flood, sharing\n&7forbidden links, etc."
+    grief: "&7Team sabotage, destruction\n&7of allied base, etc."
+    bug: "&7Exploitation of game bugs\n&7to gain advantages."
+    cross: "&7Alliance with enemy players\n&7or cheating in teams."
+  accepted: "&aThe report was accepted."
+
+staff:
+  notification: "&c&lNEW REPORT! &f{reporter} &7reported &f{reported} &7for &f{reason} &7in &f{server}"
+  nova-denuncia: "&c&lNEW REPORT! &f{reporter} &7reported &f{reported} &7for &f{reason} &7in &f{server}"
+  click-to-view: "&a&l[CLICK TO VIEW]"
+  menu-title: "&c&lPending Reports"
+  opcoes-titulo: "&c&lReport Options"
+  no-reports: "&aThere are no pending reports at the moment."
+  resolved: "&aReport marked as resolved."
+  deleted: "&cReport deleted."
+  teleported: "&aTeleported to the reported player."
+  not-same-server: "&cThe reported player is not on the same server."
+  history-title: "&c&lReport History: &f{player}"
+  no-history: "&aThis player has no report history."
+  history:
+    pending: "&e⚠ Pending"
+    resolved: "&a✓ Resolved"
+  opcoes:
+    rejeitar: "&c&lReject Report"
+    aceitar: "&a&lAccept Report"
+    teleportar: "&b&lTeleport to Player"
+  buttons:
+    resolve: "&a&lMark as Resolved"
+    delete: "&c&lDelete Report"
+    teleport: "&b&lTeleport to Player"
+    history: "&e&lView History"
+    back: "&7&lBack"
+  report-info:
+    player: "&7Player: &f{player}"
+    reason: "&7Reason: &f{reason}"
+    reported-by: "&7Reported by: &f{reporter}"
+    server: "&7Server: &f{server}"
+    date: "&7Date: &f{date}"
+    amount: "&7Amount: &f{amount} reports"
+  report-accepted: "&aThe report was accepted."
+  accepted: "&aThe report was accepted."
+
+reportlog_usage: "&cCorrect usage: /reportlog <player>"

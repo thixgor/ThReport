@@ -1,0 +1,81 @@
+# Configuração do ThReport
+# Autor: spirit
+
+# Configurações gerais
+settings:
+  # Tempo de cooldown entre reports do mesmo jogador (em minutos)
+  cooldown: 5
+  # Sistema de confiabilidade (trust)
+  trust-system:
+    enabled: true
+    # Número de denúncias falsas antes de perder o direito de reportar
+    max-false-reports: 3
+    # Tempo de bloqueio após exceder o limite (em minutos)
+    block-time: 60
+  # Tipo de interface para reports (GUI ou CHAT)
+  interface-type: "GUI"
+  # Tipo de interface para o comando /reports (GUI ou CHAT)
+  reports-interface-type: "GUI"
+  # Tipo de interface para o comando /reportlog (GUI ou CHAT)
+  reportlog-interface-type: "GUI"
+
+# Configurações de banco de dados
+database:
+  # Usar MySQL para sincronização entre servidores?
+  use-mysql: false
+  # Configurações do MySQL
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "threport"
+    username: "root"
+    password: "password"
+    table-prefix: "threport_"
+
+# Configurações de notificações
+notifications:
+  # Notificação para staff quando um jogador é reportado
+  staff-notification:
+    enabled: true
+    # Tipo: CHAT, ACTION_BAR, TITLE
+    type: "CHAT"
+  # Som ao enviar report com sucesso
+  sounds:
+    enabled: true
+    # Som ao enviar report
+    report-sent: "LEVEL_UP"
+    # Som ao clicar em opções
+    click: "CLICK"
+    # Som ao abrir menu
+    open-menu: "CHEST_OPEN"
+
+# Configurações de efeitos visuais
+effects:
+  enabled: true
+  # Partículas ao confirmar report
+  confirm-particles: "CRIT"
+  # Animação de inventário
+  inventory-animation: true
+
+# Configurações de motivos de report
+report-reasons:
+  hack:
+    name: "Hack / Cheats"
+    description: "Jogador usando hacks, cheats ou modificações ilegais"
+    item: "DIAMOND_SWORD"
+  chat:
+    name: "Chat Abusivo / Ofensas"
+    description: "Jogador usando linguagem ofensiva ou abusiva no chat"
+    item: "BOOK"
+  grief:
+    name: "Team Grief / Traição"
+    description: "Jogador prejudicando sua própria equipe ou aliados"
+    item: "TNT"
+  bug:
+    name: "Bug Abuse"
+    description: "Jogador explorando bugs ou falhas do jogo"
+    item: "BEDROCK"
+  cross:
+    name: "Cross-Team / Trapaça"
+    description: "Jogador fazendo alianças proibidas com outras equipes"
+    item: "BOW"
