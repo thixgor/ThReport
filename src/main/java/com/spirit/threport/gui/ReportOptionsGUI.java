@@ -238,4 +238,12 @@ public class ReportOptionsGUI {
             open();
         }
     }
+
+    /**
+     * Returns the inventory associated with this GUI
+     * @return The inventory
+     */
+    public Inventory getInventory() {
+        return inventory;
+    }
 }
