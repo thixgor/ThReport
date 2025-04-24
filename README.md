@@ -25,9 +25,13 @@
 
 ## 🎮 Comandos
 | `/report` | Abre o menu de denúncias 
-| `/reports` | Visualiza denúncias ativas
+-
+| `/reports` | Visualiza denúncias 
+-
 | `/reportlog` | Histórico de denúncias 
+-
 | `/threport reload` | Recarrega as configurações
+
 
 ## ⚙️ Configurações Principais
 
