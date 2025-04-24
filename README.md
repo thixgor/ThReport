@@ -24,9 +24,6 @@
 4. Configure o plugin em `plugins/ThReport/config.yml`
 
 ## 🎮 Comandos
-
-| Comando | Descrição
-|---------|-----------|------------|
 | `/report` | Abre o menu de denúncias 
 | `/reports` | Visualiza denúncias ativas
 | `/reportlog` | Histórico de denúncias 
